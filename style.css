@@ -1,0 +1,57 @@
+body {
+    background-color:rgb(255, 235, 213);
+}
+
+.divider {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 700px;
+    width: 1535px;
+    height: 80px;
+    /* background-color: rgb(177, 71, 0); */
+
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.fishies{
+    position: absolute;
+    width: 1435px;
+    max-height: 90%;
+    left: 55px;
+    top: 50px;
+    border-radius: 30px;
+}
+
+.titleBox{
+    border: solid 5px rgb(254, 245, 234);
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.title {
+    z-index: 5;
+    position: absolute;
+    left: 25px;
+    top: -70px;
+    width: 600px;
+    font-size: 100px;
+    font-weight: 10;
+    color: rgb(254, 245, 234);
+    font-family: Poppindeeznuts;
+}
+
+@font-face {
+    font-family: Poppindeeznuts;
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
