@@ -1,53 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
-    background-color:rgb(255, 235, 213);
+    background-color:rgb(77, 126, 119);
+}
+
+nav{
+    width: 100%;
+    height: 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 10;
+}
+
+nav .row { 
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: red;
+    margin-left: 25px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.white{
+    background-color: rgb(189, 122, 78);
+}
+
+.white ul li a{
+    color: black;
+    font-weight: 700;
 }
 
 .divider {
     z-index: 5;
     position: absolute;
     left: 0;
-    top: 700px;
-    width: 1535px;
+    top: 800%;
+    width: 70%;
     height: 80px;
     /* background-color: rgb(177, 71, 0); */
 
 }
 
-ul {
-    text-decoration: none;
-    list-style: none;
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fishies{
     position: absolute;
-    width: 1435px;
+    width: 93%;
     max-height: 90%;
     left: 55px;
     top: 50px;
     border-radius: 30px;
+    border: 5px solid rgb(189, 122, 78);
+}
+
+.flex:last-child{
+    align-content: center;
 }
 
 .titleBox{
-    border: solid 5px rgb(254, 245, 234);
+    border: solid 5px rgb(189, 122, 78);
     width: 650px;
     height: 200px;
-    position: absolute;
-    left: 450px;
-    top: 250px;
     background: transparent;
     backdrop-filter: blur(10px);
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title {
     z-index: 5;
-    position: absolute;
-    left: 25px;
-    top: -70px;
     width: 600px;
     font-size: 100px;
     font-weight: 10;
-    color: rgb(254, 245, 234);
+    color: rgb(189, 122, 78);
     font-family: Poppindeeznuts;
 }
 
