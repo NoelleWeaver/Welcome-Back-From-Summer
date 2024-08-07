@@ -66,15 +66,7 @@ nav ul li a{
     color: rgb(204, 167, 141);
 }
 
-.divider {
-    z-index: 5;
-    position: absolute;
-    left: 0;
-    top: 300%;
-    width: 70%;
-    height: 80px;
-    background-color: rgb(177, 71, 0);
-}
+
 
 .container {
     position: relative;
@@ -157,16 +149,19 @@ nav ul li a{
 
 .grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr[oneR] 1fr[twoR] 1fr[threeR];
+    grid-template-columns: 1fr[oneC] 1fr[twoC] 1fr[threeC];
+}
 
+.grid video {
+    border-radius: 30px;
 }
 
 .grid img{
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
 }
 
 .img1 {
-    grid-column: 1;
+    grid-column: omeR/twoR;
 }
