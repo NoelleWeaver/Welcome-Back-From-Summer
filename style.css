@@ -79,8 +79,8 @@ nav ul li a{
 .container {
     position: relative;
     display: inline-block;
-    top: 300px;
-    left: 27%;
+    top: 150px;
+    left: 10%;
 }
 
 .text-wrapper {
@@ -91,10 +91,10 @@ nav ul li a{
 }
 
 .text {
-    font-size: 180px;
+    font-size: 300px;
     font-weight: bold;
     color: transparent;
-    background: url('./images/Snapchat-2060191483.jpg') no-repeat center center;
+    background: url('./images/otherfishies.jpg') no-repeat center center;
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
@@ -130,7 +130,7 @@ nav ul li a{
     flex-direction: row;
     font-family: Poppindeeznuts;
     justify-content: space-between;
-    margin-top: 65%;
+    margin-top: 40%;
     margin-left: 8%;
 }
 
@@ -153,4 +153,20 @@ nav ul li a{
     width: 400px;
     padding-right: 8%;
     padding-top: 5%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid img{
+    width: 100px;
+    height: 100px;
+}
+
+.img1 {
+    grid-column: 1;
 }
