@@ -30,5 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
         currentIndex = (currentIndex + 1) % slideArray.length;
         updateSlider();
-    }, 3000);
+    }, 6000);
 });
