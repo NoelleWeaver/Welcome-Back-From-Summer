@@ -16,10 +16,10 @@
             <div>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -29,16 +29,16 @@
                 <h1 class="text">SUMMER</h1>
             </div>
         </div>
-        <div class="underline"></div>
+        <div class="underline" id="about"></div>
         <div class="flex">
             <h1>About</h1>
             <div class="line"></div>
             <div class="aboutContainer">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate molestiae debitis ut voluptas amet nobis? Mollitia iure veniam aperiam quas.</p>
+                <p>This website is about my summer and all of the things I did with friends. I have many pictures of either friends and other events. The summer went by fast but it was pretty fun still.</p>
             </div>
         </div>
-        
-        <section id="gallery" class="section">
+        <div id="gallery"></div>
+        <section class="section">
             <div class="content">
                 <h2>Gallery</h2>
                 <div class="slider">
@@ -65,12 +65,32 @@
             </div>
         </section>
     </div>
-
+<div id="events"></div>
     <h1 class="events">events</h1>
-    <div class="pEvents">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam in labore rem beatae voluptatem tempore repellendus. Illo dolor esse voluptas, vero, fugit labore, maxime quidem exercitationem voluptates possimus voluptatem necessitatibus!</p>
+    <div id='events' class="pEvents">
+        <p>Over the summer I went with everyone to the minion movie that came out, a Cage the Elephant concert, and birthdays. I also went to the aquarium with some family.</p>
     </div>
-   <div class="alan">Alan is dumb</div>
+    <div class="outline"></div>
+    <div class="twoLines"></div>
+
+    <div id="contact"></div>
+    <h1 class="contactName">contact</h1>
+    <div class="contact">
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required autocomplete><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required autocomplete=""><br>
+            <label for="message">Message:</label><br>
+            <textarea rows="8" columns="60"></textarea><br>
+            <input id="submit"type="submit">
+          </form>
+    </div>
+
+    <div class="outline2"></div>
+
+    <div class="end"></div>
+    
     <script src="script.js"></script>
 </body>
 </html>

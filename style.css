@@ -146,6 +146,13 @@ nav ul li a{
     padding-right: 8%;
     padding-top: 5%;
 }
+#gallery{
+    position:absolute;
+    height: 20px;
+    width:20px;
+    margin-top: 11%;
+    margin-left: 50%;
+}
 
 h2{
     position: absolute;
@@ -166,7 +173,7 @@ h2{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     background-color: rgb(178, 77, 33);
-    margin-top: 35%;
+    margin-top: 25%;
 }
 
 .slides {
@@ -208,10 +215,23 @@ h2{
 }
 
 .events {
+    position: absolute;
     font-family: Poppins;
     font-size: 100px;
     text-transform: uppercase;
     color:rgb(177, 71, 0);
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+.twoLines{
+    position: absolute;
+    border-right: 5px solid rgb(177, 71, 0);
+    border-left: 5px solid rgb(177, 71, 0);
+    width: 28%;
+    height: 15%;
+    margin-left: 22%;
+    margin-top: -32%;
 }
 
 .pEvents {
@@ -219,8 +239,19 @@ h2{
     flex-direction: column;
     justify-content: center;
     background-color: rgb(175, 80, 26);
-    width: 40%;
-    height: 200px;
+    width: 35%;
+    height: 250px;
+    margin-left: 30%;
+    margin-top: 26%;
+}
+
+.outline {
+    position: absolute;
+    border: 5px solid rgb(200, 136, 88);
+    width: 33%;
+    height: 240px;
+    margin-left: 33%;
+    margin-top: -18%;
 }
 
 .pEvents p {
@@ -229,7 +260,88 @@ h2{
     font-family: Poppins;
 }
 
-.alan {
+#contact{
+    width: 20px;
+    height: 20px;
+    margin-top: 10%;
+}
+
+.contactName{
+    color: rgb(177, 71, 0);
+    font-family: Poppins;
+    font-size: 150px;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 1.5%;
+}
+
+.contact{
     position: absolute;
-    margin-top: 3000%;
+    display: flex;
+    width: 35%;
+    height: 550px;
+    background-color: rgb(177, 71, 0);
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60%;
+    margin-top: -13%;
+    border-radius: 10px;
+}
+
+form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins;
+    color: rgb(227, 208, 193);
+}
+
+input {
+    font-family: Poppins;
+    color: rgb(175, 80, 26);
+    border: 5px solid rgb(200, 136, 88);
+    border-radius: 10px;
+    background-color: rgb(227, 208, 193);
+}
+
+#name{
+    width: 150%;
+    height: 10%;
+}
+
+#email{
+    width: 150%;
+    height: 10%;
+}
+
+textarea {
+    color: rgb(175, 80, 26);
+    font-family: Poppins;
+    border: 5px solid rgb(200, 136, 88);
+    width: 150%;
+    border-radius: 10px;
+    background-color: rgb(227, 208, 193);
+}
+
+#submit{
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.outline2{
+    width: 50%;
+    height: 150px;
+    border: 5px solid rgb(177, 71, 0);
+    margin-top: -12.75%;
+}
+
+.end{
+    background-color: rgb(177, 71, 0);
+    width:auto;
+    height: 40px;
+    margin-top: 30%;
 }
